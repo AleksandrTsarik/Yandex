@@ -1,0 +1,114 @@
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ul, ol {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather/Merriweather-Black.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Black.woff") format("woff");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather/Merriweather-Bold.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather/Merriweather-Regular.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather/Merriweather-Light.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Merriweather";
+  src: url("../fonts/Merriweather/Merriweather-Italic.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Italic.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  min-width: 300px;
+  font-size: 16px;
+  min-height: 100vh;
+  color: #313131;
+  background-color: #ffffff;
+  font-family: "Arial";
+}
+
+.container {
+  max-width: 1640px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: block;
+  border-radius: 50px;
+  border: solid 1px transparent;
+  transition: 0.3s;
+}
+
+.btn-dark {
+  background-color: #1F1F1F;
+  color: #ffffff;
+}
+@media (min-width: 1024px) {
+  .btn-dark:hover {
+    background-color: #FBCE51;
+    color: #1F1F1F;
+  }
+}
+
+.btn-light {
+  border-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
+}
+@media (min-width: 1024px) {
+  .btn-light:hover {
+    background-color: #1F1F1F;
+    color: #ffffff;
+  }
+}

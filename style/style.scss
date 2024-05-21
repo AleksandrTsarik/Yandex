@@ -154,8 +154,8 @@ body {
     z-index: 1;
   }
   &__logo {
-    padding: 25px 0 60px;
-    display: block;
+    margin: 25px 0 60px;
+    display: inline-block;
   }
   &__info {
     max-width: 50%;

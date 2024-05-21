@@ -241,8 +241,8 @@ body {
   }
 }
 .preview__logo {
-  padding: 25px 0 60px;
-  display: block;
+  margin: 25px 0 60px;
+  display: inline-block;
 }
 .preview__info {
   max-width: 50%;

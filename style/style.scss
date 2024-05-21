@@ -630,6 +630,9 @@ body {
   &__title {
     margin-bottom: -65px;
     padding-right: 200px;
+    @media($tablet) {
+      padding-right: 0;
+    }
     @media($phone) {
       margin-bottom: 40px;
     }
@@ -703,6 +706,9 @@ body {
     top: 30px;
     right: 0;
     left: auto;
+    @media($tablet) {
+      top: 45px;
+    }
     @media($phone) {
       top: auto;
       bottom: 0;
@@ -730,6 +736,9 @@ body {
     right: 55px;
     left: auto;
     width: auto;
+    @media($tablet) {
+      top: 35px;
+    }
     @media($phone) {
       top: auto;
       bottom: 15px;

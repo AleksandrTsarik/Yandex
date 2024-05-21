@@ -182,6 +182,7 @@ body {
   font-family: "Merriweather", "Arial", "sans-serif";
   position: relative;
   z-index: 5;
+  overflow: hidden;
 }
 @media ((max-width: 767px)) {
   .marquee-strip {
@@ -221,16 +222,17 @@ body {
   }
 }
 .preview {
-  background-image: url("../img/top-bg.png");
+  background-image: url("../img/top-bg.webp");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   background-position: center;
   padding-bottom: 10%;
+  overflow: hidden;
 }
 @media ((max-width: 767px)) {
   .preview {
-    background-image: url("../img/top-bg-mobile.png");
+    background-image: url("../img/top-bg-mobile.webp");
     padding-bottom: 95%;
     background-position: 50% 100%;
     transform: translateY(40px);
